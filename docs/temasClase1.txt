@@ -1,0 +1,51 @@
+Temas clase 1
+
+EXTENSIONES
+
+SINTAXIS ETIQUETAS
+
+HEAD Y BODY
+
+METADATOS
+
+ETIQUETAS SEMANTICAS
+    header
+    nav
+    article
+    section
+    main
+    footer
+
+ENLACES:
+    a
+    href
+    target
+    id
+
+LISTAS
+    ol
+    ul
+    li
+
+FORMULARIOS:
+    input
+    textarea
+    label
+    type 
+    name
+    submit
+    reset
+    radio
+    checkbox
+    select-option
+
+IMAGENES
+    img
+    src
+    alt
+    title
+
+VIDEOS
+    iframe
+
+FAVICON

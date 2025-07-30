@@ -1,0 +1,40 @@
+CSS -> Cascading Style Sheets. CSS sirve para darle estilos a mi html.
+
+SECELCTORES
+clase, id, tag 
+BEM (.block__element--modifier)
+
+COLORES
+color, background-color, rgb, rgba, hexa
+
+ESTILOS DE LISTAS
+list-style-position -> le da position (inside/outside) a las viñetas de la lista
+list-style-type -> sirve para quitarle los estilos a la lista (usando none) 
+
+FONTS
+google fonts -> para buscar fuentes a incorporar
+import -> para incorporar la fuente de google fonts en nuestro proyecto
+font-family -> elegimos una fuente para determinado elemento html
+font-weight -> le damos el "ancho" de la letra
+font-size -> le damos el tamaño de la letra
+
+
+BOX MODELING
+width -> Da el ancho a una caja
+height -> Da el alto a una caja
+medidas -> px, vh, wh y porcentaje
+margin -> Doy el espacio desde el borde de la caja con el contenido que hay fuera de ella (top, right, bottom, left, inline, block)
+padding -> Doy el espacio desde el borde de la caja a lo que tiene dentro de ella
+display -> Le estoy diciendo a mi caja que display quiero que tenga (inline, block, inline-block)
+box-sizing: border-box -> sirve para que el padding no le agregue espacio de padding a la caja
+text-align -> para acomodar texto (center, right, left, justify)
+line-height -> da el espaciado entre las lineas
+text-decoration -> le da subrayado al texto 
+background-image -> para dar una imagen de fondo 
+background-size -> le doy tamaño a la imagen (medidas, contain, cover)
+background-repeat -> decido si se repite o no
+background-position -> decido en que parte de la caja se va a ubicar (top/center/bottom, right/center/left)
+background-attachment -> para darle efecto dependiendo del scroll (scroll, fixed)
+border-radius -> le da un borde redondeado a la caja en lugar de angulado
+clase active para el navbar
+efecto hover
