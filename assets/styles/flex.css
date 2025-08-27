@@ -1,0 +1,108 @@
+:root {
+    --bg: #0f172a;
+    --cont: #0b1224;
+    --a: #60a5fa; --b: #f472b6; --c: #34d399; --d: #fbbf24; --e: red; --f:violet; --g:aquamarine; --h:rgb(38, 0, 255);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: var(--bg);
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    min-height: 120px;
+    border-radius: 12px;
+    border: 2px dashed gray;
+    padding: 12px;
+    margin: 16px 0;
+    gap: 12px;
+}
+
+.item {
+    background: var(--a);
+    padding: 16px;
+    border-radius: 10px;
+    min-width: 60px;
+    color: var(--cont);
+    font-weight: 700;
+    text-align: center;
+}
+
+.container .item:nth-child(2) {
+    background: var(--b);
+}
+.container .item:nth-child(3) {
+    background: var(--c);
+}
+.container .item:nth-child(4) {
+    background: var(--d);
+}
+.container .item:nth-child(5) {
+    background: var(--e);
+}
+.container .item:nth-child(6) {
+    background: var(--f);
+}
+.container .item:nth-child(7) {
+    background: var(--g);
+}
+.container .item:nth-child(8) {
+    background: var(--h);
+}
+
+.c1 {
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.c2 {
+
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.c3 {
+    justify-content: flex-end;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.i-a{
+    order: 2;
+    align-self: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 120px;
+}
+.i-b {
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 160px;
+}
+.i-c {
+    order: 4;
+    align-self: flex-end;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 80px;
+}
+.i-d{
+    order: 3;
+    align-self: stretch;
+    flex: 3 0 140px;
+
+}
